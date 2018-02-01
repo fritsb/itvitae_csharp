@@ -1,0 +1,14 @@
+C:\Users\Streeksoft\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Streeksoft\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Streeksoft\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Streeksoft\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\HexaDecBin.csprojResolveAssemblyReference.cache
+C:\Users\Streeksoft\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\HexaDecBin.csproj.CoreCompileInputs.cache
+C:\Users\Streeksoft\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Streeksoft\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Streeksoft\source\repos\HexaDecBin\HexaDecBin\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Streeksoft\source\repos\HexaDecBin\HexaDecBin\bin\Debug\ConsoleApp1.exe
+C:\Users\Streeksoft\source\repos\HexaDecBin\HexaDecBin\bin\Debug\ConsoleApp1.pdb
+C:\Users\Streeksoft\source\repos\HexaDecBin\HexaDecBin\obj\Debug\HexaDecBin.csprojResolveAssemblyReference.cache
+C:\Users\Streeksoft\source\repos\HexaDecBin\HexaDecBin\obj\Debug\HexaDecBin.csproj.CoreCompileInputs.cache
+C:\Users\Streeksoft\source\repos\HexaDecBin\HexaDecBin\obj\Debug\ConsoleApp1.exe
+C:\Users\Streeksoft\source\repos\HexaDecBin\HexaDecBin\obj\Debug\ConsoleApp1.pdb
