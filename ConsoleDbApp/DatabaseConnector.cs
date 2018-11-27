@@ -4,6 +4,13 @@
  * Based on these tutorials:
  * - https://www.codeproject.com/Articles/823854/%2FArticles%2F823854%2FHow-to-connect-SQL-Database-to-your-Csharp-program
  * - https://www.codeproject.com/Articles/4416/Beginners-guide-to-accessing-SQL-Server-through-C
+ *
+ * Updated version with connection string in App.Config
+ * NOTE: "You need to reference System.Configuration.dll in your project as well as the "using" statement."
+ * ( Reference in project: right-click on 'add references' folder in the solution explorer, select the '.NET' tab, 
+ *     search for the .NET reference you would like to add (in this case System.Configuration) )
+ *
+ * Also notice the difference between the connection strings; both ways work. 
  */
 
 
@@ -13,6 +20,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Configuration;
 
 
 namespace ConsoleDbApp
@@ -26,7 +34,8 @@ namespace ConsoleDbApp
 
             try { 
                 conn = new SqlConnection();
-                conn.ConnectionString = "Server=STREEKWIN\\SQLEXPRESS;Database=itvitae;Trusted_Connection=true";
+                //conn.ConnectionString = "Server=STREEKWIN\\SQLEXPRESS;Database=itvitae;Trusted_Connection=true";
+                conn.ConnectionString = ConfigurationManager.ConnectionStrings["dbString"].ConnectionString;
                 conn.Open();
                 connectionOpened = true;
             }
